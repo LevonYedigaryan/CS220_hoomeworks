@@ -10,8 +10,8 @@ void* work(void* args)
 {
 	for(int i=0;i<M;i++)
 	{
-		printf("Thread %ld is running in the CPU %d.\n", pthread_self(), sched_getcpu());
 	}
+	printf("Thread %ld is running in the CPU %d.\n", pthread_self(), sched_getcpu());
 }
 
 int main()
