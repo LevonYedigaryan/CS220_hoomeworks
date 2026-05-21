@@ -79,5 +79,6 @@ int main()
 	free(dice);
 	free(wins);
 	free(threads);
+	free(indexes);
 	return 0;
 }
